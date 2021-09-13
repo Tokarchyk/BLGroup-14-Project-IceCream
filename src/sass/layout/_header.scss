@@ -158,6 +158,7 @@
     }
   }
   @media screen and (max-width: 1279px) {
+    width: 250px;
     padding-left: 25px;
     margin-right: 0;
     padding-top: 10px;
@@ -170,7 +171,7 @@
 }
 
 .header-current-link {
-  // color: #d41443;
+  color: #d41443;
   text-decoration: none;
 }
 
@@ -220,7 +221,7 @@
     display: block;
   }
   @media screen and (min-width: 1280px) {
-    margin-left: auto;
+    margin-left: 110px;
     margin-right: unset;
     margin-top: 0;
     margin-bottom: 0;
@@ -240,36 +241,49 @@
   }
 }
 
-.button-buy {
+.button-light {
   display: block;
+  width: 160px;
   height: 44px;
   border: none;
   padding-left: 21px;
   padding-right: 21px;
   border-radius: 20px;
-  font-size: 14px;
+  font-size: 16px;
   font-family: DM Sans;
   font-weight: bold;
-  line-height: 18px;
+  line-height: 21px;
   cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &-light {
-    background-color: #ffffff;
-    color: #d41443;
-  }
-  &-light:hover {
+
+  background-color: #ffffff;
+  color: #d41443;
+
+  &:hover {
     background-color: #ecebeb;
     color: #d41443;
   }
 
-  &-dark {
-    background-color: #d41443;
-    color: #ffffff;
-  }
+  // &-dark {
+  //   background-color: #d41443;
+  //   color: #ffffff;
+  // }
 
-  &-dark:hover {
-    background-color: #c7133e;
-    color: #ffffff;
+  // &-dark:hover {
+  //   background-color: #c7133e;
+  //   color: #ffffff;
+  // }
+}
+.button-title {
+  margin-right: 12px;
+
+  &-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding-left: 37px;
+    padding-right: 37px;
   }
 }
