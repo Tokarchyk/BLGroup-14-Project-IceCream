@@ -111,6 +111,8 @@
   border: none;
   border-radius: 22px;
 
+  cursor: pointer;
+
   &::after {
     background-image: url('../images/contacts/arrow-white.svg');
   }
@@ -130,6 +132,8 @@
 .button--white {
   color: $main-brand-color;
   background-color: $main-text-color;
+
+  cursor: pointer;
 
   &::after {
     background-image: url('../images/Vector.svg');
