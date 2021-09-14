@@ -1,0 +1,84 @@
+.gallery {
+
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: 767px) {        
+        height: 122px; 
+        background-image: 
+        url('../images/advantage-gallery/gallery-mobile.jpg'); 
+        background-position: center;      
+
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        & {
+        background-image: url('../images/advantage-gallery/gallery-mobile@2x.jpg');
+        }
+    }
+    }
+
+    @media screen and (min-width: 768px) { 
+        height: 264px; 
+        background-image: 
+        url('../images/advantage-gallery/gallery-tablet.jpg');        
+    
+
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        & {
+        background-image: 
+        url('../images/advantage-gallery/gallery-tablet@2x.jpg');
+        }
+    }
+    }
+    @media screen and (min-width: 1280px) {
+        height: 430px;
+        background-image: 
+        url('../images/advantage-gallery/gallery-desktop.jpg');
+            
+     @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+         (min-resolution: 2dppx) {
+         & {
+        background-image: 
+        url('../images/advantage-gallery/gallery-desktop@2x.jpg');
+            }
+        }
+    }
+}
+
+.section__gallery {
+    padding-top: 0;
+    background-image:   
+    linear-gradient(
+    to bottom,
+    $second-background 39%,
+    $main-text-color 39%,
+    $main-text-color 100%);
+
+    @media screen and (min-width: 768px) { 
+    background-image:   
+    linear-gradient(
+    to bottom,
+    $second-background 40%,
+    $main-text-color 40%,
+    $main-text-color 100%);      
+    }
+   
+    @media screen and (min-width: 1280px) {
+    background-image:   
+    linear-gradient(
+    to bottom,
+    $second-background 29%,
+    $main-text-color 29%,
+    $main-text-color 100%);      
+    }
+}
+
+.container__gallery {
+    padding: 0;
+}
+
+
