@@ -1,6 +1,11 @@
 .products {
   background-color: #ffffff;
 
+  @media screen and (max-width: 767px) {
+    margin-top: 121px;
+    margin-bottom: 100px;
+  }
+
   @media screen and (min-width: 768px) and (max-width: 1279px) {
     padding-top: 122px;
     padding-bottom: 112px;
