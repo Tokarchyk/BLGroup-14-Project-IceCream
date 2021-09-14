@@ -1,0 +1,50 @@
+text-align: center;
+color: #000000;
+
+@media screen and (min-width: 768px) {
+    font-size: 16px;
+}
+
+@media screen and (min-width: 1280px) {
+    font-size: 20px;
+}
+
+
+
+// &::before {
+//     width: 4px;
+//     height: 4px;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     content: '';
+    
+//     background-image: url("../image/dots.png");
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//      background-color: #c7133e;
+     
+//     display: inline-block;
+//     z-index: 10;
+// }
+
+// &::after {
+//     position: absolute;
+//     bottom: 0;
+//     right: 0;
+//     content: '';
+//     background-image: url("../image/hr-dots.png");
+//     background-repeat: no-repeat;
+//     width: 12px;
+//     height: 12px;
+// }
+}
+
+.slider__dots {
+    position: absolute;
+}
+
+.slider__img {
+    position: absolute;
+    bottom: -35px;
+}
