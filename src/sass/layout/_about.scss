@@ -199,7 +199,7 @@
   overflow-y: scroll;
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  z-index: 2;
+  z-index: 998;
 }
 
 .modal {
@@ -253,7 +253,7 @@
 .modal__text {
   background-color: $second-background;
   color: $second-text-color;
-  padding: 10px 25px;
+  padding: 20px 30px;
 }
 
 .about__img-milk {
