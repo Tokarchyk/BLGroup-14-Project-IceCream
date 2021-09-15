@@ -94,8 +94,11 @@
 .contact-buttons {
   display: flex;
   flex-direction: column;
-  padding-left: 30px;
-  padding-right: 30px;
+  align-items: center;
+}
+
+.contact-buttons__item:first-child {
+  margin-bottom: 10px;
 }
 
 .button {
@@ -106,6 +109,7 @@
   font-weight: 700;
   line-height: 1.31;
   height: 44px;
+  width: 161px;
   color: $main-text-color;
   background-color: $main-brand-color;
   border: none;
@@ -115,10 +119,6 @@
 
   &::after {
     background-image: url('../images/contacts/arrow-white.svg');
-  }
-
-  &:first-child {
-    margin-bottom: 10px;
   }
 
   &:hover,
@@ -234,6 +234,7 @@
   .contact-buttons {
     flex-direction: row;
     justify-content: center;
+    align-items: baseline;
   }
 
   .button {
